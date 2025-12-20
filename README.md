@@ -10,9 +10,14 @@ This tool demonstrates practical security fundamentals aligned with
 Security+ and GRC principles.
 
 ## Features
-- Email header analysis
-- URL and domain extraction
-- Basic risk indicators
+- Extracts sender information (From header)
+- Extracts URLs from email body
+- Calculates a basic phishing risk level (Low / Medium / High)
+
+## Usage
+```bash
+python analyzer.py samples/sample.eml
+
 
 ## Disclaimer
 For educational and defensive purposes only.
